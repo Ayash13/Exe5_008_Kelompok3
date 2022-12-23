@@ -75,6 +75,9 @@ namespace Exe5
     {
         static void Main(string[] args)
         {
-          
+            Queue q = new Queue();
+            char ch;
+            
+        }
     }
 }
