@@ -36,7 +36,11 @@ namespace Exe5
                 this.Muhammad = this.Fatih = temp;
                 return;
             }
-            
+            // Add the new node at the end of queue and change Fatih
+            Console.Write(key + " is inserted to queue.");
+            Console.WriteLine();
+            this.Fatih.next = temp;
+            this.Fatih = temp;
         }
       
     }
