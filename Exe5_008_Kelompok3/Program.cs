@@ -88,7 +88,35 @@ namespace Exe5
                     Console.WriteLine("4. Exit");
                     Console.Write("\nEnter your choice (1-4): ");
                     ch = Convert.ToChar(Console.ReadLine());
-                    
+                    Console.WriteLine();
+                    switch (ch)
+                    {
+                        case '1':
+                            {
+                                Console.Write("Enter an element : ");
+                                string element = Console.ReadLine();
+                                Console.WriteLine();
+                                q.enqueue(element);
+                            }
+                            break;
+                        case '2':
+                            {
+                                q.dequeue();
+                            }
+                            break;
+                        case '3':
+                            {
+                                q.display();
+                            }
+                            break;
+                        case '4':
+                            return;
+                        default:
+                            {
+                                Console.WriteLine("Invalid option!!");
+                            }
+                            break;
+                    }
                 }
                 catch (Exception e)
                 {
