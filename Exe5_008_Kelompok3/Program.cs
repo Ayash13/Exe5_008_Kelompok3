@@ -65,7 +65,10 @@ namespace Exe5
                 Console.WriteLine("Queue is empty.");
                 return;
             }
-           
+            Console.WriteLine("\nElements in the queue are: \n");
+            QNode display;
+            for (display = Muhammad; display != null; display = display.next)
+                Console.WriteLine(display.key);
         }
     }
    
