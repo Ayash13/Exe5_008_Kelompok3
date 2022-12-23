@@ -51,7 +51,12 @@ namespace Exe5
                 Console.WriteLine("Queue is empty.");
                 return;
             }
-           
+            // Store previous Muhammad and move Muhammad one node ahead
+            Console.WriteLine("\nThe element deleted from the queue is.");
+            this.Muhammad = this.Muhammad.next;
+            // If Muhammad becomes NULL, then change Fatih also as NULL
+            if (this.Muhammad == null)
+                this.Fatih = null;
         }
        
     }
