@@ -42,6 +42,17 @@ namespace Exe5
             this.Fatih.next = temp;
             this.Fatih = temp;
         }
-      
+        // Method to remove an key from queue.
+        public void dequeue()
+        {
+            // If queue is empty, return NULL.
+            if (this.Muhammad == null)
+            {
+                Console.WriteLine("Queue is empty.");
+                return;
+            }
+           
+        }
+       
     }
    
