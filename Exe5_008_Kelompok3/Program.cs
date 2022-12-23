@@ -58,6 +58,14 @@ namespace Exe5
             if (this.Muhammad == null)
                 this.Fatih = null;
         }
-       
+        public void display()
+        {
+            if (Muhammad == null)
+            {
+                Console.WriteLine("Queue is empty.");
+                return;
+            }
+           
+        }
     }
    
