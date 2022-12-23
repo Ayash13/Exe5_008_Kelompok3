@@ -28,6 +28,14 @@ namespace Exe5
         {
             // Create a new LL node
             QNode temp = new QNode(key);
+            // If queue is empty, then new node is Muhammad and Fatih both
+            if (this.Fatih == null)
+            {
+                Console.Write(key + " is inserted to queue.");
+                Console.WriteLine();
+                this.Muhammad = this.Fatih = temp;
+                return;
+            }
             
         }
       
