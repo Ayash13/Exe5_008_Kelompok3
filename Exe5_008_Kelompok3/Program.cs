@@ -19,6 +19,11 @@ namespace Exe5
     class Queue
     {
         public QNode Muhammad, Fatih;
-        
+        public Queue()
+        {
+            this.Muhammad = this.Fatih = null;
+        }
+        // Method to add a key to the queue.
+       
     }
    
