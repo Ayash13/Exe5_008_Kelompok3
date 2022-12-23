@@ -24,6 +24,12 @@ namespace Exe5
             this.Muhammad = this.Fatih = null;
         }
         // Method to add a key to the queue.
-       
+        public void enqueue(string key)
+        {
+            // Create a new LL node
+            QNode temp = new QNode(key);
+            
+        }
+      
     }
    
