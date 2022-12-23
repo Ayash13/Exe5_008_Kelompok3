@@ -15,7 +15,10 @@ namespace Exe5
             this.next = null;
         }
     }
+    // A class to represent a queue. The queue, Muhammad stores the Muhammad node of LL and Fatih stores the last node of LL
+    class Queue
+    {
+        public QNode Muhammad, Fatih;
+        
+    }
    
-   
-    
-}
